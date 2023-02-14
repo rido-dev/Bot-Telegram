@@ -1,0 +1,28 @@
+#!/bin/bash
+
+# Metemos en el archivo el contenido.
+. /home/bot.conf 
+
+# Comprobamos que en el archivo de configuración "bot.conf" existe el TOKEN.
+if [[ -z $TOKEN ]]; then 
+    echo "FALTA CONFIGURAR EL TOKEN DE TU BOT"
+    exit 1
+fi
+
+# Comprobamos que en el archivo de configuración "bot.conf" existe el ID.
+if [[ -z $ID ]]; then
+    echo "FALTA CONFIGURAR EL ID DE TU BOT"
+    exit 1
+fi
+
+# Variable que entra como primer parámetro referido al mensaje
+MSGBOT=$1
+
+# Comprobamos que hemos añadido un mensaje como parametro del script.
+if [[ -z $MSGBOT ]]; then
+    echo "FALTA AÑADIR EL MENSAJE PARA ENVIAR..."
+    exit 1
+fi
+
+# Hacemos un curl con el parámetro POST usando la api de Telegram, la cual inserta nuestro TOKEN y nuestro ID seguido del texto a enviar. 
+curl -s -o /dev/null --no-progress-meter -X POST https://api.telegram.org/bot$TOKEN/sendmessage -d chat_id="$ID" -d text="$MSGBOT"
