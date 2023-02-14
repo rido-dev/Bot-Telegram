@@ -14,7 +14,7 @@ Pasos a seguir para la creación del BOT:
   4 - Para poder enviar el mensaje desde Linux deberemos tener instalado curl:
                         **sudo apt-get install curl**
                         
-  5 - Si lo prefieres puedes crear un directorio en el que se enuentren los dos archivos **bot** y **bot.conf**
+  5 - Si lo prefieres puedes crear un directorio en el que se encuentren los dos archivos **bot** y **bot.conf**
   
   6 - El contenido de **bot.conf**
       TOKEN=Aquí va tu TOKEN
