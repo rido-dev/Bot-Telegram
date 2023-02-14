@@ -16,6 +16,7 @@ Pasos a seguir para la creación del BOT:
                         
   5 - Si lo prefieres puedes crear un directorio en el que se encuentren los dos archivos **bot** y **bot.conf**
   
-  6 - El contenido de **bot.conf**
-      TOKEN=Aquí va tu TOKEN
-      ID=Aquí va tu ID
+  6 - El contenido de **bot.conf**:
+  
+  TOKEN=Aquí va tu TOKEN
+  ID=Aquí va tu ID
