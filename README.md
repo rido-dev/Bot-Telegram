@@ -1,5 +1,5 @@
 # Bot-Telegram
-https://raw.githubusercontent.com/ridoutdev/master/logo_telegram.jpg
+https://raw.githubusercontent.com/ridoutdev/bot-telegram/master/logo_telegram.jpg
 
 Script para enviar mensajes a través de un bot en la plataforma de mensajería telegram
 
