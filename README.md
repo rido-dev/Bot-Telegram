@@ -7,12 +7,11 @@ Pasos a seguir para la creación del BOT:
   
   1 - Abrir un chat con **@BothFather** y escribir **/newbot** a continuación deberás elegir dos nombres para tu bot.
   
-  2 - Se te proporcionará un **TOKEN** que es indispensable para poder usar el bot.
+  2 - Se te proporcionará el **TOKEN** de tu bot.
   
-  3 - Abrir un chat con **@userinfobot** y escribir **/start** para conocer tu **ID** de telegram.
+  3 - Abrir un chat con **@userinfobot** y escribir **/start** para conocer tu **ID** de usuario de telegram.
   
   4 - Para poder enviar el mensaje desde Linux deberemos tener instalado curl:
                         **sudo apt-get install curl**
                         
   5 - Si lo prefieres puedes crear un directorio en el que se encuentren los dos archivos **bot** y **bot.conf**.
-  
