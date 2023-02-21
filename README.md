@@ -1,4 +1,4 @@
-                                   ### Bot-Telegram
+# Bot-Telegram
 
 ![](https://github.com/ridoutdev/Bot-Telegram/blob/main/logo_telegram.jpg)
 
